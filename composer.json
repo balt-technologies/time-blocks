@@ -1,0 +1,32 @@
+{
+    "name": "balt-technologies/time-blocks",
+    "autoload": {
+        "psr-4": {
+            "TimeBlocks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tobias Redmann",
+            "email": "tobias.redmann@balt.de"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "nesbot/carbon": "^2.57"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "nunomaduro/phpinsights": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
